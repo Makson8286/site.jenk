@@ -34,7 +34,6 @@ pipeline  {
                 sh '''
                 docker run \
                 --name site \
-                -p 80 \
                 -d makson8286/sites
                 '''
             }
