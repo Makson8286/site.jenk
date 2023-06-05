@@ -24,7 +24,7 @@ pipeline  {
         stage("Build") {
             steps {
                 sh '''
-                cd /home/dik/site.jenk/Site
+                cd /home/st/site.jenk/Site
                 docker build -t makson8286/sites .
                 '''
             }
