@@ -35,7 +35,7 @@ pipeline  {
                 docker run \
                 --name site \
                 -p 80 \
-                -d makson8286/zabk:post
+                -d makson8286/sites
                 '''
             }
         }
