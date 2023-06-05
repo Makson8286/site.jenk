@@ -15,8 +15,9 @@ pipeline  {
         stage("Git clone") {
             steps {
                 sh '''
-                cd /home/dik/gitr/
-                git clone https://github.com/Makson8286/jenk           
+                mkdir -p /home/st
+                cd /home/st/
+                git clone https://github.com/Makson8286/site.jenk         
                 '''
             }
         }    
