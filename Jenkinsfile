@@ -15,8 +15,6 @@ pipeline  {
         stage("Git clone") {
             steps {
                 sh '''
-                chmod 777 /home
-                chmod 777 /home/st
                 mkdir -p /home/st
                 cd /home/st/
                 git clone https://github.com/Makson8286/site.jenk         
